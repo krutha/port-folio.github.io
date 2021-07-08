@@ -127,7 +127,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("./images/Backimg.jfif") no-repeat center;
+    background: url("./images/backimg.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -151,6 +151,7 @@ section{
 }
 .about{
     font-family:'Poppins',sans-serif;
+    background: url("./images/backimg.jpg") no-repeat center;
 }
 .about .title{
     position: relative;
@@ -227,7 +228,9 @@ section{
 
 }
 /* skills section styling */
-
+.skills{
+    background: url("./images/backimg.jpg") no-repeat center;
+}
 .skills .title::after{
     content: "what i know";
 }
@@ -296,6 +299,9 @@ section{
 
 
 /* Project section styling */
+.Project{
+    background: url("./images/backimg.jpg") no-repeat center;
+}
 .Project .title::after{
     content: "Worked on";
 }
@@ -336,6 +342,9 @@ section{
 
 
 /* contact section styling */
+.contact{
+    background: url("./images/backimg.jpg") no-repeat center;
+}
 .contact .title::after{
     content: "get in touch";
 }
